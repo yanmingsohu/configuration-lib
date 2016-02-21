@@ -1,0 +1,16 @@
+{
+  "name": "configuration-lib",
+  "version": "0.1.47",
+  "description": "系统配置库,从本地,从api,从缓存",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "jym",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "private"
+  }
+}

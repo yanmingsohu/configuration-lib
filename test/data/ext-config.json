@@ -1,0 +1,14 @@
+{
+  "env": "development",
+  "port": 80,
+  "cluster": false,
+  "logger": {
+    "logLevel": "ALL",
+    "log_dir": "logs",
+    "log_size": 20971520,
+    "reserve_count": 10,
+    "kfk_log": {}
+  },
+  "aa": "test",
+  "ext_config_file": "E:\\Nodejs_Projects\\configuration-lib\\test\\data\\ext-config.json"
+}
