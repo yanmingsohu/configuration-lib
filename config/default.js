@@ -1,6 +1,5 @@
 // 默认配置文件, 集成了多个系统的默认配置
 module.exports = {
-  env     : 'development',
   port    : 80,
   cluster : false,
 
@@ -23,10 +22,20 @@ module.exports = {
 
     // 文件分块后, 最多保留几个分块文件
     reserve_count : 10, 
+    
+    create_dir: true,
 
     // 写 kfk 日志时需要的参数
     kfk_log: {
     }
+  },
+
+  // form [dcip-prj]
+  dcip : {
+    // udp 广播端口
+    port : 19818,
+    // 数据加密密码
+    pass : 'abcdefg',
   },
 
 
