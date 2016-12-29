@@ -1,6 +1,6 @@
 {
     "name": "configuration-lib",
-    "version": "0.2.3",
+    "version": "0.2.5",
     "description": "系统配置库,从本地,从api,从缓存",
     "main": "index.js",
     "scripts": {

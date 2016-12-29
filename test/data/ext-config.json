@@ -1,5 +1,4 @@
 {
-  "env": "development",
   "port": 80,
   "cluster": false,
   "logger": {
@@ -7,8 +6,14 @@
     "log_dir": "logs",
     "log_size": 20971520,
     "reserve_count": 10,
+    "create_dir": true,
     "kfk_log": {}
   },
+  "dcip": {
+    "port": 19818,
+    "pass": "abcdefg"
+  },
+  "env": "development",
   "aa": "test",
-  "ext_config_file": "E:\\Nodejs_Projects\\configuration-lib\\test\\data\\ext-config.json"
+  "ext_config_file": "D:\\Nodejs_Projects\\company\\configuration-lib\\test\\data\\ext-config.json"
 }
