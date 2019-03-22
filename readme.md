@@ -13,7 +13,7 @@ var lib = require('configuration-lib');
 var ret = lib.extends(a, b, ...);
 
 // 等待配置文件初始化完成
-lib.wait_init(function() {});
+lib.wait_init(function(conf) {});
 
 // 读取配置, conf 对象是独立的, 如果修改了 conf 中的属性不会影响全局配置
 // 这个方法的调用应该在 lib.wait_init 的回调中完成
